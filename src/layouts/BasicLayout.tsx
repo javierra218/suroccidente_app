@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react';
 import { Layout } from 'antd';
 import '../styles/BasicLayout.css';
-import Topbar from '../components/Topbar';
+import Topbar from '../components/Topbar/Topbar';
 const { Footer, Content } = Layout;
 
 interface BasicLayoutProps {
